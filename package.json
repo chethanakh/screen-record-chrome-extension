@@ -1,0 +1,25 @@
+{
+  "name": "screen-record-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chethanakh/screen-record-chrome-extension.git"
+  },
+  "author": "chethanakh1998.09@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chethanakh/screen-record-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/chethanakh/screen-record-chrome-extension#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "better-commits": "^1.15.7",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0"
+  }
+}
