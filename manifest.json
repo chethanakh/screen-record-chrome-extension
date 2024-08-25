@@ -1,0 +1,10 @@
+{
+    "name": "Chrome Screen Recorder",
+    "description": "",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "./resource/img/extension_icon.png"
+    }
+  }
