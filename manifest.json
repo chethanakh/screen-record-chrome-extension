@@ -4,7 +4,25 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-      "default_popup": "index.html",
-      "default_icon": "./resource/img/extension_icon.png"
-    }
-  }
+        "default_popup": "index.html",
+        "default_icon": "./resource/img/extension_icon-128px.png"
+    },
+    "background": {
+        "service_worker": "./resource/js/background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://meet.google.com/*"
+            ],
+            "js": [
+                "./resource/js/content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "desktopCapture"
+    ]
+}
